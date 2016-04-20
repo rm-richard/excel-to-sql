@@ -1,0 +1,13 @@
+{
+  "name": "excel-to-sql",
+  "version": "0.1.0",
+  "description": "Convert xls or xlsx spreadsheets into SQL inserts or updates",
+  "main": "index.js",
+  "author": "rm_richard",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^1.0.2",
+    "q": "^1.4.1",
+    "xlsx": "^0.8.0"
+  }
+}
