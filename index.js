@@ -4,8 +4,8 @@ var xlsx = require('xlsx');
 var inquirer = require('inquirer');
 var q = require('q');
 
-var baseInsert = 'INSERT INTO %s (%s) VALUES(%s)';
-var baseUpdate = 'UPDATE %s SET %s WHERE %s';
+var baseInsert = 'INSERT INTO %s (%s) VALUES(%s);';
+var baseUpdate = 'UPDATE %s SET %s WHERE %s;';
 var params = {};
 
 var escapeColname = function(col) {
